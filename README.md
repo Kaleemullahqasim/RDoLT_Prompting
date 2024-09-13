@@ -78,12 +78,12 @@ python benchmarks/run_benchmark.py --task "If a train travels at 60 miles per ho
 
 The following prompts are available for comparison:
 
-- `RDoLT_4Request`
+- `RDoLT_4Request` 
 - `RDoLT_3Request`
 - `RDoLT_Single.py`
 - `cot_sc_prompt` (Chain of Thoughts-Self Consistancy)
 - `cot_t_prompt` (Chain of Thoughts)
-- `least2most_prompt`
+- `least2most_prompt`(Least-to-Most)
 - `autocot_prompt` (Auto-CoT) 
 - `vanilla_prompt` (Simple Input/Output)
 
