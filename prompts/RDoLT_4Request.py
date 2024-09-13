@@ -199,9 +199,9 @@ Final Solution:"""
     response = connect_lm_studio(prompt)
     return response.strip()
 
-# Example usage
-if __name__ == "__main__":
-    task = "How can we reduce the environmental impact of plastic waste?"
-    final_solution = run_multistep_reasoning(task)
-    print("Final Solution:")
-    print(final_solution)
+# # Example usage
+# if __name__ == "__main__":
+#     task = "How can we reduce the environmental impact of plastic waste?"
+#     final_solution = run_multistep_reasoning(task)
+#     print("Final Solution:")
+#     print(final_solution)
