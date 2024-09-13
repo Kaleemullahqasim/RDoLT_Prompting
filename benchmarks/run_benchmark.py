@@ -8,6 +8,9 @@ from rich.console import Console
 from rich.table import Table
 
 from scripts.connect_lm_studio import connect_lm_studio
+import sys
+import os
+
 
 console = Console()
 
