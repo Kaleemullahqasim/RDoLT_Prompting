@@ -1,7 +1,7 @@
 # scripts/connect_ollama.py
 
 import ollama
-from prompts.RDoLT_prompt import run_prompt
+from prompts.RDoLT_Single import run_prompt
 
 def connect_ollama(task):
     prompt = run_prompt(task)
