@@ -1,0 +1,8 @@
+{
+    "cot_prompt": [
+        "**Here's how we can solve this:**\n\n1. **Calculate earnings from eggplants:** Bennet earns 20 eggplants * $3/eggplant = $60 from selling his eggplants.\n\n2. **Determine remaining amount needed:** To reach his goal of $135, Bennet needs to earn an additional $135 - $60 = $75 from selling corn.\n\n3. **Calculate the price per ear of corn:**  Bennet needs to sell each ear of corn for $75 / 25 ears = $3/ear.\n\n\n**Answer:** Bennet should sell each ear of corn for $3."
+    ],
+    "cot_sc_prompt": [
+        "Here's how to solve the problem step-by-step:\n\n**1. Calculate earnings from eggplants:**\n\n* Bennet sells 20 eggplants at $3 each, so he earns 20 * $3 = $60 from eggplants.\n\n**2. Determine the remaining amount needed:**\n\n* He wants to make a total of $135 and has already earned $60, so he needs to earn another $135 - $60 = $75 from corn.\n\n**3. Calculate the price per ear of corn:**\n\n* Bennet has 25 ears of corn and needs to make $75 from them, so he should sell each ear for $75 / 25 = $3.\n\n\n**Answer:** Bennet should sell each ear of corn for $3."
+    ]
+}
