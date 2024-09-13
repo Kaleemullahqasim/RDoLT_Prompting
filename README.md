@@ -43,7 +43,7 @@ python benchmarks/run_benchmark.py --benchmark <dataset_name> --prompts <prompt1
 
 **Arguments**:
 
-- `--benchmark`: Name of the benchmark dataset.
+- `--benchmark`: Name of the benchmark dataset (other benchmarks can be added in folder).
 - `--prompts`: List of prompts to compare.
 - `--sample-size`: Number of samples to run from the benchmark dataset (default: 10).
 
@@ -70,19 +70,22 @@ python benchmarks/run_benchmark.py --task "<custom_task>" --prompts <prompt1> <p
 
 ```bash
 python benchmarks/run_benchmark.py --task "Solve the equation 2+2" --prompts novel_prompt_v2 cot_sc_prompt
+python benchmarks/run_benchmark.py --task "2+2-3/4*8=?" --prompts cot_sc_prompt RDoLT_4Request
+python benchmarks/run_benchmark.py --task "If a train travels at 60 miles per hour for 2 hours, and then at 80 miles per hour for another 3 hours, what is the total distance traveled by the train?" --prompts cot_sc_prompt RDoLT_4Request
 ```
 
 ### Available Prompts
 
 The following prompts are available for comparison:
 
-- `novel_prompt_v1`
-- `novel_prompt_v2`
-- `cot_sc_prompt`
-- `cot_t_prompt`
+- `RDoLT_4Request`
+- `RDoLT_3Request`
+- `RDoLT_Single.py`
+- `cot_sc_prompt` (Chain of Thoughts-Self Consistancy)
+- `cot_t_prompt` (Chain of Thoughts)
 - `least2most_prompt`
-- `autocot_prompt`
-- `vanilla_prompt`
+- `autocot_prompt` (Auto-CoT) 
+- `vanilla_prompt` (Simple Input/Output)
 
 ### Available Datasets
 
@@ -95,7 +98,7 @@ The following datasets are available for benchmarking:
 
 ## Examples
 
-### Running a Benchmark
+### Running a Benchmark with Custom Sample Size
 
 ```bash
 python benchmarks/run_benchmark.py --benchmark gsmk8 --prompts novel_prompt_v1 cot_sc_prompt --sample-size 5
